@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score
 import streamlit as st
 
 # Load the dataset
-data = pd.read_csv('D:\Programming\AI\loan\Training Data.csv')
+data = pd.read_csv('Training Data.csv')
 
 # Drop the 'Risk_Flag' column
 X = data.drop(columns=['Risk_Flag'])
